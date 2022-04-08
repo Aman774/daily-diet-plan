@@ -1,0 +1,6 @@
+
+
+//sequlize commands
+
+npx sequelize-cli db:migrate
+npx sequelize-cli migration:generate --name create_unique_constraint_on_id_email_users_table
