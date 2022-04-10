@@ -193,13 +193,21 @@ class AuthService {
       }
 
       const token = BasicHelper.generateToken(userInfo.id);
+      userInfo.token = token;
+
+      console.log("token***", token);
+      const referesh_token = BasicHelper.generateToken(
+        userInfo.id,
+        process.env.REFERESH_SECRET_KEY
+      );
+      console.log("referesh token***", referesh_token);
+      userInfo.referesh_token = referesh_token;
 
       return {
         successMsg: "success",
         result: {
           message: "login successfull",
-          userinfo: userInfo,
-          token: token,
+          userinfo: { userInfo, token: token, referesh_token: referesh_token },
         },
       };
     } catch (ex) {

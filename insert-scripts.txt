@@ -1,0 +1,90 @@
+****master_diet_type***
+
+
+INSERT INTO public.master_diet_type
+(diet_type, is_active )
+VALUES('breakfast', true);
+
+
+INSERT INTO public.master_diet_type
+(diet_type, is_active )
+VALUES('lunch', true);
+
+
+INSERT INTO public.master_diet_type
+(diet_type, is_active )
+VALUES('dinner', true);
+
+
+*** master diet type ends ******
+
+
+
+
+
+
+
+
+
+
+
+*******insert recommended item *********
+
+INSERT INTO public.master_recommended_items
+(item_name, is_active )
+VALUES('egg', true );
+
+INSERT INTO public.master_recommended_items
+(item_name, is_active)
+VALUES('chicken', true);
+
+
+
+INSERT INTO public.master_recommended_items
+(item_name, is_active)
+VALUES('carrort', true);
+
+
+INSERT INTO public.master_recommended_items
+(item_name, is_active)
+VALUES('cucumber', true);
+
+
+
+INSERT INTO public.master_recommended_items
+(item_name, is_active)
+VALUES('spinach', true);
+
+
+
+INSERT INTO public.master_recommended_items
+(item_name, is_active)
+VALUES('milk', true);
+
+
+
+INSERT INTO public.master_recommended_items
+(item_name, is_active)
+VALUES('rice', true);
+
+
+
+INSERT INTO public.master_recommended_items
+(item_name, is_active)
+VALUES('apples', true);
+
+
+
+
+INSERT INTO public.master_recommended_items
+(item_name, is_active)
+VALUES('banana', true);
+
+
+
+************recommended item ends************************
+
+
+
+
+
